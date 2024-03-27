@@ -1,0 +1,10 @@
+*.pyc
+*.png
+*.tif
+*.jpg
+*.mat
+.DS_Store
+*.egg-info
+*.eggs
+*.zip
+*.txt
