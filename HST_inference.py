@@ -111,11 +111,11 @@ with torch.no_grad():
         img_lq = np.clip(img_lq, 0, 1)
                 
         fig, axes = plt.subplots(ncols=2)        
-        axes[0].imshow(img_lq, cmap='gray')
+        axes[0].imshow(img_lq, cmap='gist_ncar')
         axes[0].set_title("Noised")
         axes[0].axis('off')
         
-        axes[1].imshow(restored, cmap='gray')
+        axes[1].imshow(restored, cmap='gist_ncar')
         axes[1].set_title("Denoised")
         axes[1].axis('off')
         

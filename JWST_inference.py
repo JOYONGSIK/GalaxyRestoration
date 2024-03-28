@@ -121,15 +121,15 @@ with torch.no_grad():
         img_gt = np.clip(img_gt, 0, 1)
         
         fig, axes = plt.subplots(ncols=3)
-        axes[0].imshow(img_gt, cmap='gray')
+        axes[0].imshow(img_gt, cmap='gist_ncar')
         axes[0].set_title("GT")
         axes[0].axis('off')
         
-        axes[1].imshow(img_lq, cmap='gray')
+        axes[1].imshow(img_lq, cmap='gist_ncar')
         axes[1].set_title("Noised")
         axes[1].axis('off')
         
-        axes[2].imshow(restored, cmap='gray')
+        axes[2].imshow(restored, cmap='gist_ncar')
         axes[2].set_title("Denoised")
         axes[2].axis('off')
         
