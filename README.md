@@ -1,5 +1,8 @@
 # Deeper, Sharper, Faster: Application of Efficient Transformer to Galaxy Image Restoration 
 
+[![arXiv](https://img.shields.io/badge/arXiv-2404.00102-b31b1b.svg)](https://arxiv.org/abs/2404.00102)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11378660.svg)](https://doi.org/10.5281/zenodo.11378660)
+
 <hr />
 
 > **Abstract:** *The Transformer architecture has revolutionized the field of deep learning over the past several years in diverse areas, including natural language processing, code generation, image recognition, time series forecasting, etc. We propose to apply Zamir et al.'s efficient transformer to perform deconvolution and denoising to enhance astronomical images. We conducted experiments using pairs of high-quality images and their degraded versions, and our deep learning model demonstrates exceptional restoration of photometric, structural, and morphological information. When compared to the ground-truth JWST images, the enhanced versions of our HST-quality images reduce the scatter of isophotal photometry, Sersic index, and half-light radius by factors of 4.4, 3.6, and 4.7, respectively, with Pearson correlation coefficients approaching unity.
@@ -63,6 +66,6 @@ python HST_inference.py
 
 ## Contact 
 
-Should you have any questions, please contact josik@unist.ac.kr 
+Should you have any questions, please contact josik@unist.ac.kr, hyosun.park@yonsei.ac.kr
 
 **Acknowledgment:** This code is based on the [Restormer](https://github.com/swz30/Restormer) repository. 
